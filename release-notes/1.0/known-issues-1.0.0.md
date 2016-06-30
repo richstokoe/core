@@ -218,7 +218,7 @@ This process will ensure that that the dotnet host finds the appropriate APIs it
 ## Windows 7
 
 **Issue:**
-Some libraries that P/Invoke into api-set's and target .NET Framework in our nuget packages might fail to run on Windows 7.
+Some libraries that P/Invoke into api-sets and target .NET Framework in our nuget packages might fail to run on Windows 7.
 
 **Workarounds:**
 Some of the api-sets are installed by the UCRT update: <https://support.microsoft.com/en-us/kb/2999226>
@@ -232,6 +232,6 @@ and <https://support.microsoft.com/en-us/kb/2790113> but these installations ma
 
 ## Bash on Ubuntu on Windows
 
-[Bash on Windows (WSL)](https://msdn.microsoft.com/en-us/commandline/wsl/about) is not yet supported by .NET Core. Attempting to run applications in the environment can experience interittent crashes.
+[Bash on Windows (WSL)](https://msdn.microsoft.com/en-us/commandline/wsl/about) is not yet supported by .NET Core. Attempting to run applications in the environment can experience intermittent crashes.
 
 <https://github.com/Microsoft/BashOnWindows/issues/520>
